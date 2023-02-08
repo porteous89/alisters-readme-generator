@@ -57,6 +57,9 @@ function init() {
         .prompt(questions)
         .then((data) => {
             writeToFile('README.md', generateMarkdown(data));
+        })
+        .catch(error => {
+            console.error(error);
         });
 }
 
