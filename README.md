@@ -19,8 +19,8 @@ This project is licensed under the GPL license. See the [LICENSE](https://www.gn
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 ## contribution
-PLease checkout my github link for contributions -  [github.com/porteous89](github.com/porteous89).
+PLease checkout my github link for contributions -  [https://github.com/porteous89](https://github.com/porteous89).
 ## Test
 open folder in editor, run node index on terminal. go through prompts.
 ## Questions
-If you have any questions about the repo, open an issue or contact me directly at alisterporteous@hotmail.com. You can find more of my work at [github.com/porteous89](github.com/porteous89).
+If you have any questions about the repo, open an issue or contact me directly at alisterporteous@hotmail.com. You can find more of my work at [https://github.com/porteous89](https://github.com/porteous89).
