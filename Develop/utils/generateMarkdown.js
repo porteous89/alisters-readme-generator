@@ -63,8 +63,8 @@ ${data.description}
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contributing](#contributing)
-* [Tests](#tests)
+* [Contribution](#contribution)
+* [Test](#test)
 * [Questions](#questions)
 ## Installation
 ${data.installation}
@@ -73,7 +73,7 @@ ${data.usage}
 ## License
 ${renderLicenseSection(data.license)}
 ## contribution
-${data.contribution}[${data.github}](${data.github}).
+${data.contribution} [${data.github}](${data.github}).
 ## Test
 ${data.test}
 ## Questions
