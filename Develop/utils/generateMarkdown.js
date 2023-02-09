@@ -8,9 +8,9 @@ function renderLicenseBadge(license) {
   switch (license) {
     case 'MIT':
       return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
-    case 'Apache 2.0':
+    case 'Apache':
       return '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
-    case 'GPL 3.0':
+    case 'GPL':
       return '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)';
     default:
       return '';
@@ -27,9 +27,9 @@ function renderLicenseLink(license) {
   switch (license) {
     case 'MIT':
       return 'https://opensource.org/licenses/MIT';
-    case 'Apache 2.0':
+    case 'Apache':
       return 'https://opensource.org/licenses/Apache-2.0';
-    case 'GPL 3.0':
+    case 'GPL':
       return 'https://www.gnu.org/licenses/gpl-3.0';
     default:
       return '';
@@ -69,7 +69,7 @@ ${data.usage}
 ## License
 ${renderLicenseSection(data.license)}
 ## contribution
-${data.contribution}
+${data.contribution}[${data.github}](${data.github}).
 ## Test
 ${data.test}
 ## Questions
